@@ -10,5 +10,9 @@
   "keywords": [],
   "author": "Erick Rick",
   "license": "ISC",
-  "description": "Recriando a logíca do carrinho de compras da Shopee"
+  "description": "Recriando a logíca do carrinho de compras da Shopee",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10"
+  }
 }

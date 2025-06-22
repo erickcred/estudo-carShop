@@ -21,6 +21,15 @@ async function deleteItem(userCart, name) {
     userCart.splice(index, 1);
 }
 
+async function deleteItemByIndex(userCart, index) {
+  const realIndex = index - 1;
+
+  if (index >= 0 && index <= userCart.length) {
+    userCart.splice(realIndex, 1);
+    console.log(`Item ${index} deletado com sucesso!`);
+  }
+}
+
 // remove item do carrinho -> diminui um item
 async function removeItem(userCart, item) {
   const indexFound = userCart.findIndex(i => i.name === item.name);
@@ -54,6 +63,7 @@ export {
   addItem,
   calculateTotal,
   deleteItem,
+  deleteItemByIndex,
   removeItem,
   displayCart,
 }
