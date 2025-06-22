@@ -1,0 +1,14 @@
+{
+  "name": "06-shopee-cart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "Erick Rick",
+  "license": "ISC",
+  "description": "Recriando a logíca do carrinho de compras da Shopee"
+}
