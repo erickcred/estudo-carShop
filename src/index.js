@@ -20,7 +20,7 @@ async function addItemToCart() {
 
 async function deleteItemFromCart() {
   await cartService.displayCart(myCart);
-  const productIndex = readline.question('product index: ');
+  const productIndex = readline.question('\r\nproduct index: ');
   await cartService.deleteItemByIndex(myCart, productIndex);
 }
 
